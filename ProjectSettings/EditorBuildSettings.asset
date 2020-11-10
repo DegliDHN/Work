@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/R2ABuilder_Template.unity
+    guid: 847fcd886cda24a4e9bec148e5976754
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 07ae1980fd9bdc64b95a27ff9b1dac44,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6b5368403c2b3ad41a544ffce91bedca,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 87ceffc8050ee6244817ed9e1b2b9870,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fb6e6419e3759949a2827633a94ec2b,
+      type: 2}
