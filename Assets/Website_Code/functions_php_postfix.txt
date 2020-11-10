@@ -1,0 +1,49 @@
+
+function after_login() {
+        $cookie=get_user_meta(get_current_user_id(),'app-cookie',true);
+        $user=wp_get_current_user();
+        $name=urldecode($user->first_name);
+        $lastname=urldecode($user->last_name);
+        $email=urldecode($user->user_email);
+        $user_registered=urldecode($user->user_registered);
+        $token = time();
+        $qualifica = get_user_meta($user->ID, 'qualifica', true);
+        update_user_meta( $user->ID, 'token', $token);
+
+
+
+        $url='uniwebview://action?user_id='.$user->ID.'&name='.$name.'&surname='.$lastname.'&email='.$email.'&token='.$token."&qualifica=".$qualifica;
+
+        wp_redirect($url);
+}
+add_action('wp_login', 'after_login', 999);
+
+add_action('wp_logout','ps_redirect_after_logout');
+function ps_redirect_after_logout(){
+         wp_redirect( 'uniwebview://action?logout' );
+         exit();
+}
+
+function new_modify_user_table( $column ) {
+    $column['token'] = 'Token';
+        $column['qualifica'] = 'Qualifica';
+    return $column;
+}
+add_filter( 'manage_users_columns', 'new_modify_user_table' );
+
+function new_modify_user_table_row( $val, $column_name, $user_id ) {
+    switch ($column_name) {
+        case 'token' :
+            return get_the_author_meta( 'token', $user_id );
+                case 'qualifica' :
+                        return get_the_author_meta( 'qualifica', $user_id );
+        default:
+    }
+    return $val;
+}
+add_filter( 'manage_users_custom_column', 'new_modify_user_table_row', 10, 3 );
+
+function mio_tempo_espirazione_cookie($date) {
+        return 365 * 24 * 60 * 60 * 10;
+        }
+add_filter('auth_cookie_expitation', "mio_tempo_espirazione_cookie");

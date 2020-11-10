@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: Athos-01
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5176058930125564397
+  m_GuidHigh: 6027531807769764242
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5388086540056472748
+      m_GuidHigh: 18106975396196184201
+    m_SerializedTextureGuid:
+      m_GuidLow: 1212624366276293728
+      m_GuidHigh: 5696664751879144314
+    m_Size: {x: 0.15, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: Chiara01
+    m_Texture: {fileID: 2800000, guid: b5e1b4601b6f10d47ac33edc689e0e4f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5733545237047664791
+      m_GuidHigh: 7040285418865229756
+    m_SerializedTextureGuid:
+      m_GuidLow: 14813706929992158077
+      m_GuidHigh: 9407471938191612216
+    m_Size: {x: 0.15, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: Oran01
+    m_Texture: {fileID: 2800000, guid: 68eccb7ddbf7cd9438d95d86e20d8e82, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4733444556404559366
+      m_GuidHigh: 7157530539321749907
+    m_SerializedTextureGuid:
+      m_GuidLow: 6927812000610779697
+      m_GuidHigh: 17597312624450183675
+    m_Size: {x: 0.15, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: Daniele01
+    m_Texture: {fileID: 2800000, guid: 37180231884f6024fba1d9ed983636f4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5019958162926262832
+      m_GuidHigh: 13353674629943302832
+    m_SerializedTextureGuid:
+      m_GuidLow: 15529577469866697971
+      m_GuidHigh: 14757679138720937306
+    m_Size: {x: 0.15, y: 0.14969009}
+    m_SpecifySize: 1
+    m_Name: Lapo01
+    m_Texture: {fileID: 2800000, guid: fb5064f3246dd7845a75a7b4fccecdcc, type: 3}

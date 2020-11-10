@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: daba68eb5d9b3874b911b4880e715564
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_UniqueBundleIds: 0
+  m_RemoteCatalogBuildPath:
+    m_Id: 881e6140567a84e4b91a43233229b582
+  m_RemoteCatalogLoadPath:
+    m_Id: a30a99bea5d2f834cbc96edacc9654f4
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 260908974b94200428fc55be99081fe1, type: 2}
+  - {fileID: 11400000, guid: c194702e66acd28409cbd19df5142724, type: 2}
+  - {fileID: 11400000, guid: a160f9c3f37c62c49aca418a5b80bc04, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 5673b83ba59519744acd4681e7338e6a
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: de011ac79bc93d54081aaabba6572728
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: f6cc3e8338667e7418dc29e7731f03f2
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: a2649bbc42b7d0f46a9c5123b77cb549
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 881e6140567a84e4b91a43233229b582
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: a30a99bea5d2f834cbc96edacc9654f4
+        m_Value: http://localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 0218f0fdd5d501e479e6e0307a9375b3
+      m_ProfileName: Dev_AmazonS3
+      m_Values:
+      - m_Id: de011ac79bc93d54081aaabba6572728
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: f6cc3e8338667e7418dc29e7731f03f2
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: a2649bbc42b7d0f46a9c5123b77cb549
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 881e6140567a84e4b91a43233229b582
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: a30a99bea5d2f834cbc96edacc9654f4
+        m_Value: https://paper2app.s3.eu-south-1.amazonaws.com/RemoteContent/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: de011ac79bc93d54081aaabba6572728
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: f6cc3e8338667e7418dc29e7731f03f2
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: a2649bbc42b7d0f46a9c5123b77cb549
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 881e6140567a84e4b91a43233229b582
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: a30a99bea5d2f834cbc96edacc9654f4
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - ui
+    - offv
+    - gaia
+    - p2a
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 811784b78c007e44b8c230f30dfe8baf, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 189936b2ebecdef4fbd2f22ea82b6aa7, type: 2}
+  - {fileID: 11400000, guid: 52793ab8872e033449acc08c31ae7ace, type: 2}
+  - {fileID: 11400000, guid: 3997cbf74015df249ae3201079949534, type: 2}
+  - {fileID: 11400000, guid: 327344a202f63c34ab35e1c9bbb16eaf, type: 2}
+  m_ActiveProfileId: 0218f0fdd5d501e479e6e0307a9375b3
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 2
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor

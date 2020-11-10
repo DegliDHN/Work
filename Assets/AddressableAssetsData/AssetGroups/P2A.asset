@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: P2A
+  m_EditorClassIdentifier: 
+  m_GroupName: P2A
+  m_Data:
+    m_SerializedData: []
+  m_GUID: daba68eb5d9b3874b911b4880e715564
+  m_SerializeEntries:
+  - m_GUID: 0dc09963323e09843bc7acd1c64716ba
+    m_Address: P2A/Infopanel_Text_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 4900000, guid: 0dc09963323e09843bc7acd1c64716ba, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 0dc09963323e09843bc7acd1c64716ba, type: 3}
+  - m_GUID: 1855bb1a10e15024d984cd8e76684515
+    m_Address: P2A/Marker7_url
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 194b1615ae9c22f4ea991a5c14f6ac3d
+    m_Address: P2A/Back_Btn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 2800000, guid: 194b1615ae9c22f4ea991a5c14f6ac3d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 194b1615ae9c22f4ea991a5c14f6ac3d, type: 3}
+  - m_GUID: 2b533b62aa201f944ba9726536b6b67a
+    m_Address: P2A/Home_Text_Alignment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 37c4d23e3e980f041ac907bff37ad77b
+    m_Address: P2A/Infopanel_1_Btn_Text
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4830362869da6b54a9dd9c5d714a8ffe
+    m_Address: P2A/AccentColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4efe75e463075604baa40b8d77ca14c7
+    m_Address: P2A/Infopanel_2_Btn_Text
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 602f04a50e3460244a3f06cd8f7afad7
+    m_Address: P2A/IlMioProfilo_SideBtn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 64820a6887a1f704facdd42fc636db4d
+    m_Address: P2A/Scroll_Btn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7054c70dc8cc4b9448ebcee9ab3369da
+    m_Address: P2A/Home_Text
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 73dc2f79d883fb84aa58322c8763ab3f
+    m_Address: P2A/Home_Text_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 74653fd0215aa2e48b25f1201d538b7b
+    m_Address: P2A/Cover_Homepage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 75ff2a751f358cc4986077ac55eee250
+    m_Address: P2A/SeparatorLine_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 4900000, guid: 75ff2a751f358cc4986077ac55eee250, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 75ff2a751f358cc4986077ac55eee250, type: 3}
+  - m_GUID: 7e093f55cfc178b4eacf98a3a867cd69
+    m_Address: P2A/Infopanel_Text_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 861f4149c5631fd4387792cfb0806523
+    m_Address: P2A/Infopanel_Exit_Btn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 86c96c5d2e83c1246be920f4075b3192
+    m_Address: P2A/Infopanel_2_SideBtn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8963536342d356f4c9f848482bdc7b27
+    m_Address: P2A/ImageTrackingDB
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8cec5fac684231a4ebaa26cfff61c3ec
+    m_Address: P2A/Infopanel_Name_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a95aa0dd14c763f4481899f77532bb95
+    m_Address: P2A/EntraInAR_SideBtn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a9fce501d40825147a7802a6b0958e7f
+    m_Address: P2A/Infopanel_Name_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: afeca1fabf4bbca4babedab97cbe4ebe
+    m_Address: P2A/Marker6_url
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b3df84065c8b45148958d8ce7c4b1230
+    m_Address: P2A/Home_Bg_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 4900000, guid: b3df84065c8b45148958d8ce7c4b1230, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: b3df84065c8b45148958d8ce7c4b1230, type: 3}
+  - m_GUID: c6692be35133cbd4baaef215c1b7358e
+    m_Address: P2A/Infopanel_1_Btn_Url
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cb4193f2fcedab245a66d45b3f2d17e3
+    m_Address: P2A/Logo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d8a40b7a792045d438ce26483610244c
+    m_Address: P2A/Infopanel_1_SideBtn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ed888ca79fd408340ad22f041744536e
+    m_Address: P2A/Infopanel_2_Btn_Url
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f3e4ee30cd2bcfc4699bdeb9a1b61611
+    m_Address: P2A/Infopanel_Text_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f4a2c8dbdbe16b94f8ed2a035ac7a443
+    m_Address: P2A/HeaderColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fdb4fad1f15756648aa34c0522649e05
+    m_Address: P2A/Marker5_url
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - p2a
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 13df3dc9fc00a484ea39071f0915b02a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e7a96ae0182b99e43bb439878ebaeb2f, type: 2}
+    - {fileID: 11400000, guid: 6cf1055bf3498274483c4c74b94a416c, type: 2}

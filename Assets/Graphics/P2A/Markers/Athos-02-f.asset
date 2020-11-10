@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: Athos-02-f
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4860749729871250356
+  m_GuidHigh: 1085378697993632664
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5567023987441057418
+      m_GuidHigh: 4244836330532730285
+    m_SerializedTextureGuid:
+      m_GuidLow: 2262015294701310488
+      m_GuidHigh: 3569904510503951643
+    m_Size: {x: 0.2, y: 0.24784218}
+    m_SpecifySize: 1
+    m_Name: marker1_nardini
+    m_Texture: {fileID: 2800000, guid: 052c12184aed1f641b1da7f63cd98a31, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5479068807063494617
+      m_GuidHigh: 14012479075877606076
+    m_SerializedTextureGuid:
+      m_GuidLow: 7103522919733395185
+      m_GuidHigh: 13405607172093994763
+    m_Size: {x: 0.2, y: 0.27522936}
+    m_SpecifySize: 1
+    m_Name: marker2_nardini
+    m_Texture: {fileID: 2800000, guid: 9c8dfef1c87562940b671773b2480aba, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5743136692475745812
+      m_GuidHigh: 141341736423937466
+    m_SerializedTextureGuid:
+      m_GuidLow: 15399128088861640533
+      m_GuidHigh: 10278031152373774713
+    m_Size: {x: 0.2, y: 0.26084337}
+    m_SpecifySize: 1
+    m_Name: copertina_nardini
+    m_Texture: {fileID: 2800000, guid: a3568755b168d5b47939a3b3e0e6a28e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5549134792520590763
+      m_GuidHigh: 12852617220202649224
+    m_SerializedTextureGuid:
+      m_GuidLow: 7094457468036667906
+      m_GuidHigh: 1769496358617587881
+    m_Size: {x: 0.2, y: 0.25758645}
+    m_SpecifySize: 1
+    m_Name: marker3_nardini
+    m_Texture: {fileID: 2800000, guid: a8715a02937a6274a9a0bf1e90838e18, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4747841888030921133
+      m_GuidHigh: 12359142350056123313
+    m_SerializedTextureGuid:
+      m_GuidLow: 15425974914274092240
+      m_GuidHigh: 9472872157357836587
+    m_Size: {x: 0.2, y: 0.21227947}
+    m_SpecifySize: 1
+    m_Name: marker4_nardini
+    m_Texture: {fileID: 2800000, guid: 4764e4d01274d6142b8900a609677683, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5197483168186899639
+      m_GuidHigh: 1460701347486645693
+    m_SerializedTextureGuid:
+      m_GuidLow: 4293173441004313634
+      m_GuidHigh: 16093169598413982217
+    m_Size: {x: 0.2, y: 0.2224605}
+    m_SpecifySize: 1
+    m_Name: marker5_nardini
+    m_Texture: {fileID: 2800000, guid: 96341c226a7f3b9409ca94077c6c56df, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5209084791657476976
+      m_GuidHigh: 1744270547611843487
+    m_SerializedTextureGuid:
+      m_GuidLow: 13962371555339376219
+      m_GuidHigh: 11494388593502689689
+    m_Size: {x: 0.2, y: 0.22333737}
+    m_SpecifySize: 1
+    m_Name: marker6_nardini
+    m_Texture: {fileID: 2800000, guid: 2a05965b4ef4c1c4999907a28645849f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4940762747568392270
+      m_GuidHigh: 17840548115770519971
+    m_SerializedTextureGuid:
+      m_GuidLow: 12318528794865469349
+      m_GuidHigh: 4360349056854764986
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: marker7_nardini
+    m_Texture: {fileID: 2800000, guid: 2d6087a534acaaf4baad89765d12833c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5011369740751772583
+      m_GuidHigh: 6712630341367162008
+    m_SerializedTextureGuid:
+      m_GuidLow: 5639751989157540198
+      m_GuidHigh: 10654050288485895976
+    m_Size: {x: 0.2, y: 0.13291006}
+    m_SpecifySize: 1
+    m_Name: marker8_nardini
+    m_Texture: {fileID: 2800000, guid: af09b1666c8d4e44288f59304acada93, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5654930903666039546
+      m_GuidHigh: 2994835617048156301
+    m_SerializedTextureGuid:
+      m_GuidLow: 3613110842327400181
+      m_GuidHigh: 3487192450486553784
+    m_Size: {x: 0.2, y: 0.13301976}
+    m_SpecifySize: 1
+    m_Name: marker9_nardini
+    m_Texture: {fileID: 2800000, guid: 03097ef5592b3224b8ccacca0eff6430, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5542076383212783802
+      m_GuidHigh: 4260183615089015428
+    m_SerializedTextureGuid:
+      m_GuidLow: 393027759118939174
+      m_GuidHigh: 5847986270857610618
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: marker10_nardini
+    m_Texture: {fileID: 2800000, guid: 2126f42650aa05747a45d48587382851, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5654109220313875521
+      m_GuidHigh: 12697067070347141280
+    m_SerializedTextureGuid:
+      m_GuidLow: 16083504646932335335
+      m_GuidHigh: 2377274715323826379
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: marker11_nardini
+    m_Texture: {fileID: 2800000, guid: 27bf0ae71643df34cb00651cc2c6fd20, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4925759963127655324
+      m_GuidHigh: 16034550887876467855
+    m_SerializedTextureGuid:
+      m_GuidLow: 5549746152900869334
+      m_GuidHigh: 13572165009955940091
+    m_Size: {x: 0.2, y: 0.15023519}
+    m_SpecifySize: 1
+    m_Name: marker12_nardini
+    m_Texture: {fileID: 2800000, guid: e53f3cd6a8b84d04fbe6680b2b045abc, type: 3}

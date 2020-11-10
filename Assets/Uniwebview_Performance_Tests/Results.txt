@@ -1,0 +1,42 @@
+--------- My Phone --------------------------- 10
+
+ URL: https://www.google.com/ - Average = 0.86003, Max = 1.292893, Min = 0.5036974 
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.810311, Max = 2.417774, Min = 0.9602547 
+
+
+
+--------- Dani's Phone --------------------------- 30
+
+ URL: https://www.google.com/ - Average = 0.6384781, Max = 2.563852, Min = 0.2663689 
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.561245, Max = 4.028519, Min = 0.8490877 
+
+
+--------- My Phone --------------------------- 30
+
+
+ URL: https://www.google.com/ - Average = 0.7166577, Max = 1.89749, Min = 0.1711082 
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.402373, Max = 2.115578, Min = 0.7388 
+
+ --------- My Phone --------------------------- 30 - With scene underneath
+
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.855899, Max = 2.249924, Min = 0.9570251 
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.78764, Max = 2.249874, Min = 0.8898678 (With scene deactivation)
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 2.115023, Max = 2.787224, Min = 0.7723618 (With scene deactivation and show/hide)
+
+
+------------- Chiara's Phone ----------- 30
+
+ URL: https://www.google.com/ - Average = 0.4840885, Max = 1.048957, Min = 0.2666168 
+
+ URL: https://biglietteria.officinevalis.it/ - Average = 1.108834, Max = 1.398399, Min = 0.9655762 
+
+ URL: https://www.viaggioff.it/ - Average = 1.989542, Max = 3.080034, Min = 1.631516 -- (15 iterations)
+
+
+
