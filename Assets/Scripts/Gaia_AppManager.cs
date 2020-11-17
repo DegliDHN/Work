@@ -32,6 +32,7 @@ public class Gaia_AppManager : Singleton<Gaia_AppManager>
 	public GameObject arScriptsContainer;
 	private StateMachine<GaiaStates> appStateMachine;
 	public GameObject webviewsContainer;
+    public GameObject appLogo;
 	
 	protected override void InitTon()
 	{
@@ -136,35 +137,34 @@ public class Gaia_AppManager : Singleton<Gaia_AppManager>
 	}
 
 
-	private void SidebarShown_Enter(){
-		this.Log("[App] SidebarShown_Enter");
-		// sidePanel.buttonsContainer.SetActive(true);
-		sidePanel.gameObject.SetActive(true);
-		sidePanel.outsideSidepanelRect.gameObject.SetActive(true);
-		sidePanel.onClickOutsidePanel += ChangeStateToHome;
-		hamburgerButton.gameObject.SetActive(false);
-		if(sidePanel.sideBarPanel_AnimHandler.IsShown == false){
-			sidePanel.ShowSideBar_StartAnim();
-		}
-	}
+    private IEnumerator SidebarShown_Enter()
+    {
+        this.Log("[App] SidebarShown_Enter");
+        sidePanel.gameObject.SetActive(true);
+        sidePanel.outsideSidepanelRect.gameObject.SetActive(true);
+        sidePanel.onClickOutsidePanel += ChangeStateToHome;
 
-	private IEnumerator SidebarShown_Exit(){
-		this.Log("[App] SidebarShown_Exit, going to "+appStateMachine.NextState);
-		sidePanel.onClickOutsidePanel -= ChangeStateToHome;
-		// hamburgerButton.gameObject.SetActive(true);
-		// sidePanel.outsideSidepanelRect.gameObject.SetActive(false);
-		// if(appStateMachine.NextState != GaiaStates.InfoPanel){
-			//Action onHideAnimFinish = () => Gaia_AppManager.Instance.hamburgerButton.gameObject.SetActive(true);
-			sidePanel.HideSideBar_StartAnim();
-			yield return null;
-			yield return new WaitUntil(()=> sidePanel.IsAnimating()==false);
-			//yield return new WaitForSeconds(0.4f);
-			// sidePanel.buttonsContainer.SetActive(false);
-			// hamburgerButton.gameObject.SetActive(true);
-		// }
-	}
+        hamburgerButton_canvasGroup.DOFade(0f, 0.25f).onComplete += () => hamburgerButton.gameObject.SetActive(false);
+        if (sidePanel.IsShown == false)
+        {
+            appLogo.SetActive(false);
+            sidePanel.ShowSideBar_StartAnim();
+        }
+        yield return new WaitUntil(() => sidePanel.IsAnimating() == false);
+    }
 
-	private void AR_Enter(){
+    private IEnumerator SidebarShown_Exit()
+    {
+        this.Log("[App] SidebarShown_Exit, going to " + appStateMachine.NextState);
+        sidePanel.onClickOutsidePanel -= ChangeStateToHome;
+
+        appLogo.SetActive(true);
+        sidePanel.HideSideBar_StartAnim();
+        yield return null;
+        yield return new WaitUntil(() => sidePanel.IsAnimating() == false);
+    }
+
+    private void AR_Enter(){
 		this.Log("[App] AR_Enter");
 		hamburgerButton.interactable = false;
 		exitARModeButton.interactable = true;

@@ -8,7 +8,7 @@ public class SideBarPanel_AnimatorHandler : MonoBehaviour
     private Animator animator;
 	private bool isShown;
 	public Action onShowAnim_Finish, onHideAnim_Finish;
-    public GameObject appLogo;
+    //public GameObject appLogo;
 	public bool IsShown { get => isShown; set => isShown = value; }
 
 	private bool animating;
@@ -42,14 +42,14 @@ public class SideBarPanel_AnimatorHandler : MonoBehaviour
 
     public void OnHideAnim_Finish(){
         onHideAnim_Finish?.Invoke();
-        appLogo.SetActive(true);
+        //appLogo.SetActive(true);
     }
 
     public void ShowSideBar_StartAnim(){
         animator.SetBool("IsShown", true);
 		animator.SetTrigger("Show"); //??
 		IsShown = true;
-        appLogo.SetActive(false);
+        //appLogo.SetActive(false);
         // this.StartCoroutine(CallEventOnAnimatorAnimationFinish());
     }
 

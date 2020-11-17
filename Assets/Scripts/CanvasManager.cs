@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Threading;
 
 public class CanvasManager : MonoBehaviour
 {
@@ -17,17 +18,25 @@ public class CanvasManager : MonoBehaviour
     public GameObject button5;
     public GameObject arCamera;
     public Button exitAr;
+    private CanvasGroup canvasGroup;
+    private bool flag = false;
 
     private void Start()
-    {
+    {   
+        canvasGroup = this.gameObject.GetComponent<CanvasGroup>();
         exitAr.onClick.AddListener(ExitAR);
+        StartCoroutine(CanvasFade.FadeCanvas(canvasGroup, 0f, 1f, 1f));
+        flag = true;
     }
-    private void Update()
+    private void OnEnable()
     {
-        
+        if (flag)
+        {
+            StartCoroutine(CanvasFade.FadeCanvas(canvasGroup, 0f, 1f, 1f));
+        }   
     }
     public void CanvasArManager(string markerId)
-    {
+    {    
         if (markerId == "copertina_nardini")
         {
             button3.SetActive(true);
@@ -120,6 +129,13 @@ public class CanvasManager : MonoBehaviour
         button4.SetActive(false);
         button5.SetActive(false);
         arCamera.SetActive(true);
+        StartCoroutine(CanvasFade.FadeCanvas(canvasGroup, 1f, 0f, 1f));
+        Invoke("CanvasOff", 1);
+    }
+
+    void CanvasOff()
+    {
         this.gameObject.SetActive(false);
     }
+
 }
